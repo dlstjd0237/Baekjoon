@@ -11,7 +11,7 @@ namespace Back
             {
                 i = int.Parse(Console.ReadLine());
                 if (i == -1) break;
-                else sum += i;
+                sum += i;
             }
             Console.WriteLine(sum);
 
