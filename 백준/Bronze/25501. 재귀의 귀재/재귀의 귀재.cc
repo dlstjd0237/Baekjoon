@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string.h>
+#include <string>
 int recursion(const char* s, int l, int r, int& n) {
 	++n;
 	if (l >= r)  return 1;
