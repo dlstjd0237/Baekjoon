@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-	cin.tie();
+	cin.tie()->sync_with_stdio(false);
 
 	stack<int>s;
 
